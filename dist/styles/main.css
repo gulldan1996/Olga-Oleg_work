@@ -72,6 +72,8 @@ input[type="radio"].visually-hidden {
       -webkit-box-pack: justify;
           -ms-flex-pack: justify;
               justify-content: space-between;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
       width: 373px;
       height: 30px;
       margin-left: auto;
