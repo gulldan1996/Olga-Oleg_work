@@ -1,14 +1,14 @@
 h1 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400; }
+  font-family: "Avenir", sans-serif; }
 
 @font-face {
-  font-family: "Roboto";
-  src: url("../fonts/Roboto-Regular-webfont.woff") format("woff");
+  font-family: "Avenir";
+  src: url("../fonts/Avenir-Black-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 
 body {
-  background: #eee; }
+  background: #eee;
+  font-family: Avenir; }
 
 /*# sourceMappingURL=main.css.map */
