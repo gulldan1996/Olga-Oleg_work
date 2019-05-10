@@ -52,6 +52,10 @@ input[type="radio"].visually-hidden {
   font-weight: normal;
   font-style: normal; }
 
+.wrapper {
+  height: 524px;
+  margin-bottom: 39px; }
+
 .page-header {
   height: 60px; }
   .page-header .nav-list {
