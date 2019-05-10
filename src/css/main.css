@@ -76,6 +76,7 @@ input[type="radio"].visually-hidden {
               justify-content: space-between;
       margin-left: auto;
       margin-right: 19px;
+      padding: 0;
       line-height: 30px; }
 
 /*# sourceMappingURL=main.css.map */
