@@ -74,9 +74,9 @@ input[type="radio"].visually-hidden {
               justify-content: space-between;
       width: 373px;
       height: 30px;
-      padding: 0;
       margin-left: auto;
       margin-right: 19px;
-      line-height: 30px; }
+      line-height: 30px;
+      padding: 0; }
 
 /*# sourceMappingURL=main.css.map */
