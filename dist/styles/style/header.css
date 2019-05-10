@@ -2,33 +2,32 @@
   height: 524px;
   margin-bottom: 39px; }
 
-.page-header {
-  height: 60px; }
-  .page-header .nav-list {
+.page-header .nav-list {
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 0 1px 0 #e1e7ed;
+          box-shadow: 0 1px 0 #e1e7ed; }
+  .page-header .nav-list a {
+    margin-left: 26px; }
+  .page-header .nav-list ul {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-shadow: 0 1px 0 #e1e7ed;
-            box-shadow: 0 1px 0 #e1e7ed; }
-    .page-header .nav-list a {
-      margin-left: 26px; }
-    .page-header .nav-list ul {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: justify;
-          -ms-flex-pack: justify;
-              justify-content: space-between;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
-      width: 373px;
-      height: 30px;
-      margin-left: auto;
-      margin-right: 19px;
-      line-height: 30px;
-      padding: 0; }
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 373px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: 19px;
+    line-height: 30px;
+    padding: 0; }
 
 /*# sourceMappingURL=header.css.map */
