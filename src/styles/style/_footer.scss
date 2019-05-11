@@ -12,10 +12,10 @@
     margin-bottom: 43px;
     li {
       margin-top: 9px;
-    }
-    li:first-child {
-      font-weight: bold;
-      margin-bottom: 20px;
+      &:first-child {
+        font-weight: bold;
+        margin-bottom: 20px;
+      }
     }
   }
 }
