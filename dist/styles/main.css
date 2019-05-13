@@ -99,14 +99,16 @@ main {
       margin-bottom: 30px; }
       main .apartments .details_info:not(:last-child) {
         margin-right: 15px; }
+    main .apartments .contact_host {
+      display: inline-block;
+      margin-bottom: 44.05px;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 19px; }
   main .apartment_history {
     font-size: 16px;
     line-height: 24px;
     margin-bottom: 30px; }
-  main .contact_host {
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 19px; }
   main .amenities .amenities_list {
     margin: 20px 0;
     display: grid;
