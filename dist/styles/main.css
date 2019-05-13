@@ -47,7 +47,7 @@ input[type="radio"].visually-hidden {
           clip-path: inset(100%); }
 
 @font-face {
-  font-family: "Avenir";
+  font-family: "Avenir-Black";
   src: url("../fonts/Avenir-Black-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
