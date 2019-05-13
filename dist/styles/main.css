@@ -73,7 +73,7 @@ main {
     font-size: 20px;
     line-height: 23px;
     font-weight: bold; }
-  main .wrapper {
+  main .wrapper_main {
     margin: 40px auto 75px;
     padding: 0 25px;
     display: -webkit-box;
@@ -85,7 +85,7 @@ main {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column; }
-    main .wrapper:not(:last-child) {
+    main .wrapper_main:not(:last-child) {
       margin-bottom: 97px; }
   main .apartments {
     margin-right: 79.91px; }
