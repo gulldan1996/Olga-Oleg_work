@@ -52,6 +52,21 @@ input[type="radio"].visually-hidden {
   font-weight: normal;
   font-style: normal; }
 
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100vh; }
+
 .wrapper {
   height: 524px;
   margin-bottom: 39px; }
