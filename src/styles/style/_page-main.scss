@@ -1,7 +1,163 @@
-.container {
+main {
   display: flex;
-  flex-wrap: nowrap;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100vh;
+  width: 901px;
+  margin: 0 auto;
+
+  h2 {
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: bold;
+  }
+  
+  .wrapper {
+    margin: 40px auto 75px;
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    &:not(:last-child) {
+      margin-bottom: 97px;
+    }
+  }
+
+  .apartments {
+    margin-right: 79.91px;
+    h1 {
+      font-size: 36px;
+      line-height: 42px;
+    }
+    .entire {
+      color: #687c94;
+      margin: 10.16px 0 15.05px;
+    }
+    .details_info {
+      display: inline-block;
+      margin-bottom: 30px;
+      &:not(:last-child) {
+        margin-right: 15px;
+      }
+    }
+  }
+
+  .apartment_history {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+  .contact_host {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .amenities {
+
+    .amenities_list {
+      margin: 20px 0;
+      display: grid;
+      grid-template: repeat(2, 28.95px)/repeat(2, 176.26px);
+      grid-gap: 20px 15px;
+    }
+
+    .show_amenities {
+      font-weight: bold;
+      border: none;
+      background: none;
+      padding: 0;
+      font-size: 16px;
+      line-height: 19px;
+      color: #3d4e61;
+      cursor: pointer;
+
+    }
+  }
+  .reviews {
+    margin: 65px 0;
+    .review {
+      margin-top: 34px;
+
+      .from {
+        margin-bottom: 14px;
+
+        .profile {
+          background: #c4c4c4;
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          margin-right: 20px;
+          float: left;
+
+          .profile_link {
+            padding: 25px;
+          }
+        }
+
+        .person {
+          font-size: 20px;
+          margin-bottom: 4px;
+        }
+
+        .date {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+
+  .hosted {
+
+    .hosted_place {
+      font-size: 14px;
+      line-height: 16px;
+      margin: 11px 0 19px;
+    }
+
+    .contacts {
+      padding: 15px 25px;
+      border: 1px solid #118488;
+      border-radius: 4px;
+      font-weight: bold;
+      color: #118488;
+      display: inline-block;
+      margin-top: 20px;
+    }
+
+    .hosted_about {
+      font-size: 16px;
+      line-height: 19px;
+    }
+  }
+}
+
+.registration {
+  width: 330px;
+  height: 319px;
+  box-sizing: border-box;
+  border: 1px solid #e1e7ed;
+  border-radius: 3px;
+  padding: 30px 30px 38px;
+
+  form {
+    margin-top: 39px;
+
+    input {
+      width: 270px;
+      height: 50px;
+      border: 1px solid #e1e7ed;
+      border-radius: 3px;
+      padding: 14px 17px;
+      box-sizing: border-box;
+      font-size: 16px;
+      line-height: 19px;
+      margin-bottom: 16px;
+    }
+
+    input[type="submit"] {
+      margin-top: 8px;
+      background: #fd5c63;
+      border-radius: 4px;
+      color: #fff;
+      cursor: pointer;
+    }
+  }
 }

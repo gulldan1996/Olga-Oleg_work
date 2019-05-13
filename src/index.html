@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="./styles/main.css">
   </head>
   <body>
-    <div class="container">
+  <div class="container">
     <div class="wrapper">
       <header class="page-header">
         <nav class="nav-list">
@@ -23,6 +23,71 @@
           <img src="images/slider-photo.jpg" alt="apartment" width="1440" height="464">
       </header>
     </div>
+    <!--main part-->
+    <main>
+        <div class="wrapper">
+          <article class="apartments">
+            <section class="details">
+              <h1>Quiet apartment</h1>
+              <div class="entire">Entire apartment</div>
+              <div class="guests details_info">4 guests</div>
+              <div class="bed details_info">1 bed</div>
+              <div class="bath details_info">1 bath</div>
+              <p class="apartment_history">City Apartment is newly renovated in the heart of Budapest, right in the city center. Lorem ipsum
+                dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua. Ut enim ad minim veniam.</p>
+              <a href="#" class="contact_host">Contact host</a>
+              <section class="amenities">
+                  <h2>Amenities</h2>
+                  <div class="amenities_list">
+                    <div>Elevator</div>
+                    <div>Washer</div>
+                    <div>Hair dryer</div>
+                    <div>Kitchen</div>
+                  </div>
+                  <a class="show_amenities">Show All Amenities</a>
+              </section>
+            </section>
+            <section class="reviews">
+              <h2>Reviews</h2>
+              <article class="review">
+                <div class="from">
+                  <div class="profile"><a href="#" class="profile_link"></a></div>
+                  <div class="person">John</div>
+                  <div class="date">September 2016</div>
+                </div>
+                <p class="review-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+              </article>
+              <article class="review">
+                  <div class="from">
+                    <div class="profile"><a href="#" class="profile_link"></a></div>
+                    <div class="person">John</div>
+                    <div class="date">September 2016</div>
+                  </div>
+                  <p class="review-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam.</p>
+                </article>
+            </section>
+            <section class="hosted">
+              <h2>Hosted by Jane</h2>
+              <div class="hosted_place">Budapest, Hungary</div>
+              <p class="hosted_about">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                 Ut enim ad minim veniam.</p>
+              <a href="#" class="contacts">Contact Host</a>
+            </section>
+          </article>
+        </div>
+        <aside class="registration">
+          <div class="price"><span class="price">25</span>$ per night</div>
+          <form action="">
+            <input type="text"  name="date" placeholder="Date">
+            <input type="text"  name="guests" placeholder="Guests">
+            <input type="submit" value="Book">
+          </form>
+        </aside>
+    </main>
     <div class="wrapper-footer">
       <footer class="main-footer">
         <ul class="footer-list">
@@ -46,6 +111,6 @@
       </footer>
     </div>
     <script type="text/javascript" src="scripts/main.js"></script>
-    </div>
+  </div>
   </body>
 </html>
