@@ -1,6 +1,10 @@
 .wrapper {
   height: 524px;
-  margin-bottom: 39px; }
+  margin-bottom: 39px;
+  background-image: url(../../images/slider-photo.jpg);
+  background-position: center 61px;
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 .page-header {
   height: 60px; }
