@@ -74,7 +74,6 @@ main {
     line-height: 23px;
     font-weight: bold; }
   main .wrapper_main {
-    margin: 40px auto 75px;
     padding: 0 25px;
     display: -webkit-box;
     display: -ms-flexbox;
