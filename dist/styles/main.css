@@ -14,7 +14,6 @@ body {
 
 body {
   min-width: 320px;
-  max-width: 1440px;
   margin: 0 auto;
   padding: 0;
   font-size: 16px;
@@ -46,29 +45,159 @@ input[type="radio"].visually-hidden {
   -webkit-clip-path: inset(100%);
           clip-path: inset(100%); }
 
+<<<<<<< HEAD
 @font-face {
   font-family: "Avenir-Black";
   src: url("../fonts/Avenir-Black-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 
+=======
+>>>>>>> 60e3aa614e47feea422a2e3fceb24f5a890007c9
 .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between;
-  height: 100vh; }
+          justify-content: space-between; }
+
+@font-face {
+  font-family: "Avenir";
+  src: url("../fonts/Avenir-Black-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 901px;
+  margin: 0 auto; }
+  main h2 {
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: bold; }
+  main .wrapper {
+    margin: 40px auto 75px;
+    padding: 0 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    main .wrapper:not(:last-child) {
+      margin-bottom: 97px; }
+  main .apartments {
+    margin-right: 79.91px; }
+    main .apartments h1 {
+      font-size: 36px;
+      line-height: 42px; }
+    main .apartments .entire {
+      color: #687c94;
+      margin: 10.16px 0 15.05px; }
+    main .apartments .details_info {
+      display: inline-block;
+      margin-bottom: 30px; }
+      main .apartments .details_info:not(:last-child) {
+        margin-right: 15px; }
+  main .apartment_history {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 30px; }
+  main .contact_host {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px; }
+  main .amenities .amenities_list {
+    margin: 20px 0;
+    display: grid;
+    grid-template: repeat(2, 28.95px)/repeat(2, 176.26px);
+    grid-gap: 20px 15px; }
+  main .amenities .show_amenities {
+    font-weight: bold;
+    border: none;
+    background: none;
+    padding: 0;
+    font-size: 16px;
+    line-height: 19px;
+    color: #3d4e61;
+    cursor: pointer; }
+  main .reviews {
+    margin: 65px 0; }
+    main .reviews .review {
+      margin-top: 34px; }
+      main .reviews .review .from {
+        margin-bottom: 14px; }
+        main .reviews .review .from .profile {
+          background: #c4c4c4;
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          margin-right: 20px;
+          float: left; }
+          main .reviews .review .from .profile .profile_link {
+            padding: 25px; }
+        main .reviews .review .from .person {
+          font-size: 20px;
+          margin-bottom: 4px; }
+        main .reviews .review .from .date {
+          font-size: 14px; }
+  main .hosted .hosted_place {
+    font-size: 14px;
+    line-height: 16px;
+    margin: 11px 0 19px; }
+  main .hosted .contacts {
+    padding: 15px 25px;
+    border: 1px solid #118488;
+    border-radius: 4px;
+    font-weight: bold;
+    color: #118488;
+    display: inline-block;
+    margin-top: 20px; }
+  main .hosted .hosted_about {
+    font-size: 16px;
+    line-height: 19px; }
+
+.registration {
+  width: 330px;
+  height: 319px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid #e1e7ed;
+  border-radius: 3px;
+  padding: 30px 30px 38px; }
+  .registration form {
+    margin-top: 39px; }
+    .registration form input {
+      width: 270px;
+      height: 50px;
+      border: 1px solid #e1e7ed;
+      border-radius: 3px;
+      padding: 14px 17px;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      font-size: 16px;
+      line-height: 19px;
+      margin-bottom: 16px; }
+    .registration form input[type="submit"] {
+      margin-top: 8px;
+      background: #fd5c63;
+      border-radius: 4px;
+      color: #fff;
+      cursor: pointer; }
 
 .wrapper {
   height: 524px;
+  margin: 0 auto;
   margin-bottom: 39px; }
 
 .page-header .nav-list {
