@@ -74,7 +74,6 @@ main {
     line-height: 23px;
     font-weight: bold; }
   main .wrapper_main {
-    margin: 40px auto 75px;
     padding: 0 25px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -100,14 +99,16 @@ main {
       margin-bottom: 30px; }
       main .apartments .details_info:not(:last-child) {
         margin-right: 15px; }
+    main .apartments .contact_host {
+      display: inline-block;
+      margin-bottom: 44.05px;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 19px; }
   main .apartment_history {
     font-size: 16px;
     line-height: 24px;
     margin-bottom: 30px; }
-  main .contact_host {
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 19px; }
   main .amenities .amenities_list {
     margin: 20px 0;
     display: grid;
@@ -188,11 +189,8 @@ main {
 
 .wrapper {
   height: 524px;
-  margin-bottom: 39px;
-  background-image: url(../images/slider-photo.jpg);
-  background-repeat: no-repeat;
-  background-position: center 61px;
-  background-size: cover; }
+  margin: 0 auto;
+  margin-bottom: 39px; }
 
 .page-header .nav-list {
   height: 60px;
