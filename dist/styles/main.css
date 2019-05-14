@@ -136,13 +136,12 @@ main {
           border-radius: 50%;
           margin-right: 20px;
           float: left; }
-          main .reviews .review .from .profile .profile_link {
-            padding: 25px; }
         main .reviews .review .from .person {
           font-size: 20px;
-          margin-bottom: 4px; }
+          line-height: 25px; }
         main .reviews .review .from .date {
-          font-size: 14px; }
+          font-size: 14px;
+          line-height: 25px; }
   main .hosted .hosted_place {
     font-size: 14px;
     line-height: 16px;
