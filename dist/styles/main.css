@@ -51,16 +51,9 @@ input[type="radio"].visually-hidden {
   font-weight: normal;
   font-style: normal; }
 
-.wrapper {
-  height: 524px;
-  margin-bottom: 39px;
-  background-image: url(../../images/slider-photo.jpg);
-  background-position: center 61px;
-  background-repeat: no-repeat;
-  background-size: cover; }
-
 .page-header {
-  height: 60px; }
+  height: 60px;
+  margin-bottom: 2px; }
   .page-header .nav-list {
     display: -webkit-box;
     display: -ms-flexbox;
